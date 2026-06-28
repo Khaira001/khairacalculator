@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_bg"
+    android:columnCount="4"
+    android:padding="8dp">
+
+    <Button android:text="sin"   style="@style/OrangeButton" android:id="@+id/btnSin"/>
+    <Button android:text="cos"   style="@style/OrangeButton" android:id="@+id/btnCos"/>
+    <Button android:text="tan"   style="@style/OrangeButton" android:id="@+id/btnTan"/>
+    <Button android:text="log"   style="@style/OrangeButton" android:id="@+id/btnLog"/>
+
+    <Button android:text="ln"    style="@style/OrangeButton" android:id="@+id/btnLn"/>
+    <Button android:text="√"    style="@style/OrangeButton" android:id="@+id/btnSqrt"/>
+    <Button android:text="x²"   style="@style/OrangeButton" android:id="@+id/btnSquare"/>
+    <Button android:text="xʸ"   style="@style/OrangeButton" android:id="@+id/btnPow"/>
+
+    <Button android:text="π"    style="@style/OrangeButton" android:id="@+id/btnPi"/>
+    <Button android:text="e"    style="@style/OrangeButton" android:id="@+id/btnE"/>
+    <Button android:text="("    style="@style/GrayButton"  android:id="@+id/btnLParen"/>
+    <Button android:text=")"    style="@style/GrayButton"  android:id="@+id/btnRParen"/>
+
+    <Button android:text="1/x"  style="@style/OrangeButton" android:id="@+id/btnInv"/>
+    <Button android:text="|x|"  style="@style/OrangeButton" android:id="@+id/btnAbs"/>
+    <Button android:text="n!"   style="@style/OrangeButton" android:id="@+id/btnFact"/>
+    <Button android:text="AC"   style="@style/OrangeButton" android:id="@+id/btnAC"/>
+
+    <!-- Number pad repeated -->
+    <Button android:text="7" style="@style/GrayButton" android:id="@+id/btn7"/>
+    <Button android:text="8" style="@style/GrayButton" android:id="@+id/btn8"/>
+    <Button android:text="9" style="@style/GrayButton" android:id="@+id/btn9"/>
+    <Button android:text="÷" style="@style/OrangeButton" android:id="@+id/btnDiv"/>
+
+    <Button android:text="4" style="@style/GrayButton" android:id="@+id/btn4"/>
+    <Button android:text="5" style="@style/GrayButton" android:id="@+id/btn5"/>
+    <Button android:text="6" style="@style/GrayButton" android:id="@+id/btn6"/>
+    <Button android:text="×" style="@style/OrangeButton" android:id="@+id/btnMul"/>
+
+    <Button android:text="1" style="@style/GrayButton" android:id="@+id/btn1"/>
+    <Button android:text="2" style="@style/GrayButton" android:id="@+id/btn2"/>
+    <Button android:text="3" style="@style/GrayButton" android:id="@+id/btn3"/>
+    <Button android:text="-" style="@style/OrangeButton" android:id="@+id/btnSub"/>
+
+    <Button android:text="0" style="@style/GrayButton" android:id="@+id/btn0"/>
+    <Button android:text="." style="@style/GrayButton"  android:id="@+id/btnDot"/>
+    <Button android:text="+" style="@style/OrangeButton" android:id="@+id/btnAdd"/>
+    <Button android:text="=" style="@style/OrangeButton" android:id="@+id/btnEqual"/>
+
+
+</GridLayout>

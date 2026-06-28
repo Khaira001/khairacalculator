@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.KadiriKhaira" parent="Theme.MaterialComponents.Light.NoActionBar" />
+
+    <style name="OrangeButton">
+        <item name="android:backgroundTint">@color/orange_btn</item>
+        <item name="android:textColor">@color/white_text</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+
+    <style name="GrayButton">
+        <item name="android:backgroundTint">@color/gray_btn</item>
+        <item name="android:textColor">@color/white_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+
+    <style name="MatrixCell">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:inputType">numberDecimal|numberSigned</item>
+        <item name="android:textColor">@color/white_text</item>
+        <item name="android:backgroundTint">@color/gray_btn</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

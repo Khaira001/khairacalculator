@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black_bg">
+
+    <!-- Display -->
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/display_bg"
+        android:gravity="end|bottom"
+        android:padding="16dp"
+        android:text="0"
+        android:textColor="@color/white_text"
+        android:textSize="48sp" />
+
+    <!-- Sub-display for expression -->
+    <TextView
+        android:id="@+id/tvExpression"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/display_bg"
+        android:gravity="end"
+        android:paddingHorizontal="16dp"
+        android:paddingBottom="8dp"
+        android:textColor="#888888"
+        android:textSize="18sp" />
+
+    <!-- Tabs -->
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black_bg"
+        app:tabSelectedTextColor="@color/orange_btn"
+        app:tabTextColor="@color/white_text"
+        app:tabIndicatorColor="@color/orange_btn"
+        xmlns:app="http://schemas.android.com/apk/res-auto"/>
+
+    <!-- ViewPager for tab content -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5" />
+
+</LinearLayout>
